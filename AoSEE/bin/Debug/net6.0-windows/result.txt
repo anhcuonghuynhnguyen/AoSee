@@ -1,5 +1,0 @@
-10:14:25 - 08-12-2022 : 
-	Expression: 4 
-	Result: 4 
-	PostFix: 4
-
