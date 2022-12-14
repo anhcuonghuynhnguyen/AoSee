@@ -1,0 +1,165 @@
+08:32:42 - 12-12-2022 : 
+	Expression: - 1 8 
+	Result: -7 
+	PostFix: 1 8 -
+
+08:55:36 - 12-12-2022 : 
+	Expression: 9 - 3 
+	Result: 6 
+	PostFix: 9 3 -
+
+08:55:40 - 12-12-2022 : 
+	Expression: 9 - -3 
+	Result: 12 
+	PostFix: 9 -3 -
+
+08:55:56 - 12-12-2022 : 
+	Expression: -3 * -0. 
+	Result: 0 
+	PostFix: -3 -0. *
+
+08:56:01 - 12-12-2022 : 
+	Expression: -3 + -0. 
+	Result: -3 
+	PostFix: -3 -0. +
+
+08:56:06 - 12-12-2022 : 
+	Expression: -3 + -1. 
+	Result: -4 
+	PostFix: -3 -1. +
+
+08:56:36 - 12-12-2022 : 
+	Expression: - 1 0 
+	Result: 1 
+	PostFix: 1 0 -
+
+08:56:40 - 12-12-2022 : 
+	Expression: - 1 2 
+	Result: -1 
+	PostFix: 1 2 -
+
+08:56:49 - 12-12-2022 : 
+	Expression: - 5 9 
+	Result: -4 
+	PostFix: 5 9 -
+
+08:59:00 - 12-12-2022 : 
+	Expression: -9  
+	Result: -9 
+	PostFix: -9
+
+08:59:10 - 12-12-2022 : 
+	Expression: -9 ^ 2 
+	Result: 81 
+	PostFix: -9 2 ^
+
+08:59:38 - 12-12-2022 : 
+	Expression: 100 / ( ( 2 ) ) 
+	Result: 50 
+	PostFix: 100 2 /
+
+08:59:58 - 12-12-2022 : 
+	Expression: 100 / ( ( 3 - 1 ) ) 
+	Result: 50 
+	PostFix: 100 3 1 - /
+
+09:00:11 - 12-12-2022 : 
+	Expression: 100 / ( ( 3 - 1 ) * -6 ) 
+	Result: -8.333333 
+	PostFix: 100 3 1 - -6 * /
+
+09:00:17 - 12-12-2022 : 
+	Expression: 100 / ( ( 3 - 1 ) * -3 ) 
+	Result: -16.666666 
+	PostFix: 100 3 1 - -3 * /
+
+09:00:20 - 12-12-2022 : 
+	Expression: 100 / ( ( 3 - 1 ) * -4 ) 
+	Result: -12.5 
+	PostFix: 100 3 1 - -4 * /
+
+09:00:23 - 12-12-2022 : 
+	Expression: 100 / ( ( 3 - 1 ) * -5 ) 
+	Result: -10 
+	PostFix: 100 3 1 - -5 * /
+
+09:00:45 - 12-12-2022 : 
+	Expression: 100 / ( ( 3 - 1 ) * -5 ) + -2 ^ 2 
+	Result: -6 
+	PostFix: 100 3 1 - -5 * / -2 2 ^ +
+
+09:01:00 - 12-12-2022 : 
+	Expression: -100 / ( ( 3 - 1 ) * -5 ) + -2 ^ 2 
+	Result: 14 
+	PostFix: -100 3 1 - -5 * / -2 2 ^ +
+
+09:01:24 - 12-12-2022 : 
+	Expression: -100 / ( ( 3 - 0.5 - 0.5 ) * -5 ) + -2 ^ 2 
+	Result: 14 
+	PostFix: -100 3 0.5 - 0.5 - -5 * / -2 2 ^ +
+
+09:01:35 - 12-12-2022 : 
+	Expression: -100 / ( ( 1 - -2 - 0.5 - 0.5 ) * -5 ) + -2 ^ 2 
+	Result: 14 
+	PostFix: -100 1 -2 - 0.5 - 0.5 - -5 * / -2 2 ^ +
+
+09:01:49 - 12-12-2022 : 
+	Expression: -100 / ( ( 1 - -2 - 1.5 + 0.5 ) * -5 ) + -2 ^ 2 
+	Result: 14 
+	PostFix: -100 1 -2 - 1.5 - 0.5 + -5 * / -2 2 ^ +
+
+09:02:47 - 12-12-2022 : 
+	Expression: -0.5 ^ 2 
+	Result: 0.25 
+	PostFix: -0.5 2 ^
+
+09:02:53 - 12-12-2022 : 
+	Expression: -0.5 ^ 3 
+	Result: -0.125 
+	PostFix: -0.5 3 ^
+
+12:26:33 - 12-12-2022 : 
+	Expression: 2 ^ 0.2 
+	Result: 1.1486983 
+	PostFix: 2 0.2 ^
+
+12:26:38 - 12-12-2022 : 
+	Expression: -2 ^ 0.2 
+	Result: NaN 
+	PostFix: -2 0.2 ^
+
+14:14:20 - 12-12-2022 : 
+	Expression: - 1 2 
+	Result: -1 
+	PostFix: 1 2 -
+
+14:14:26 - 12-12-2022 : 
+	Expression: - 2 3 
+	Result: -1 
+	PostFix: 2 3 -
+
+14:14:52 - 12-12-2022 : 
+	Expression: - 10 2 
+	Result: 8 
+	PostFix: 10 2 -
+
+14:15:01 - 12-12-2022 : 
+	Expression: - 2 10 
+	Result: -8 
+	PostFix: 2 10 -
+
+14:15:10 - 12-12-2022 : 
+	Expression: * 2 10 
+	Result: 20 
+	PostFix: 2 10 *
+
+17:42:40 - 12-12-2022 : 
+	Expression: 1 
+	Result: 1 
+	PostFix: 1
+
+13:31:19 - 14-12-2022 : 
+	Expression: ( ( 4 + 8 ) / 2 ) * 2 
+	Result: 12 
+	PostFix: 4 8 + 2 / 2 *
+
